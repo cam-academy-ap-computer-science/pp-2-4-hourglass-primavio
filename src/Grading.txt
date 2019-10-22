@@ -1,0 +1,24 @@
+Total:  23/25
+
+10/10 - Correct Output (must compile and run)
+3/3 - Proper Use of Static Methods
+3/3 - Proper Use of for loops
+2/3 - Pseudocode
+2/2 - Comments
+1/2 - Consistent Layout and Style following Style Guidelines
+2/2 - Proper Use of at least one Class Constant
+
+0/2 Extra Credit - Hourglass can be resized by changing only one Class Constant.
+
+Great work!
+
+One point off on your layout, because you didn't indent inside your for loops.  
+Not a huge deal, but your code will be easier to read and debug if you
+consistently indent inside your for loops.
+
+One point off for pseudocode, because you do have a block comment at the
+top, but it mostly just describes the assignment, not how your code will
+be structured.
+
+No points off, but you have a couple of for loops that only run one time.
+You don't need to use for loops there.  You can just do the print statement. :)

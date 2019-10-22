@@ -2,6 +2,7 @@
  * lines 7-10= for loop2/ line 11= line 1*/
 
 public class Hourglass {
+	public static final int WIDTH = 4;
 	public static void main(String[] args) {
 		base();
 		topHalf();
@@ -20,7 +21,7 @@ public class Hourglass {
 
 	//topHalf is increased space, slash,::, slash//
 	public static void topHalf() {
-		for (int line = 1; line <= 4; line++) {
+		for (int line = 1; line <= WIDTH; line++) {
 			for (int space = 1; space <= line; space++) {
 				System.out.print(" ");
 			}
@@ -45,7 +46,7 @@ public class Hourglass {
 	
 	// bottom half is nested for loop of top half but reversed//
 	public static void botHalf() {
-		for (int line = 1; line <= 4; line++) {
+		for (int line = 1; line <= WIDTH; line++) {
 			for (int space = 1; space <= 5 - line; space++) {
 				System.out.print(" ");
 			}
